@@ -1,8 +1,14 @@
 export default function Home() {
   return (
     <>
-      <header>head head</header>
-      <main>Hello World!</main>
+      <main>
+        <header>head head</header>
+        <section id="about us">Hello World!</section>
+        <section id="services"></section>
+        <section id="testymanials"></section>
+        Hello World!
+        <footer></footer>
+      </main>
     </>
   );
 }
