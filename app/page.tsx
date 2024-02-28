@@ -1,6 +1,6 @@
-import Services from "./components/Services";
-import { AboutUs } from "./components/AboutUs";
-import Header from "./components/Header";
+import Services from "./Components/Services";
+import { AboutUs } from "./Components/AboutUs";
+import Header from "./Components/Header";
 
 export default function Home() {
   return (
