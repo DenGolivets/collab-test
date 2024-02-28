@@ -8,6 +8,7 @@ interface CardData {
   id: number;
   imageSrc: string;
   description: string;
+  title: string;
 }
 
 const Services: React.FC = () => {
@@ -16,17 +17,20 @@ const Services: React.FC = () => {
     {
       id: 1,
       imageSrc: '/assets/images/collect_garbage.jpg',
-      description: 'Do magna commodo voluptate dolor cillum Lorem ad esse est occaecat in dolore commodo ullamco. Veniam occaecat velit consectetur in. Duis dolor aliqua do sit non. Commodo laboris labore reprehenderit quis veniam dolor dolore velit labore pariatur. Magna voluptate esse qui eu. Enim mollit officia minim non aliquip consectetur nisi incididunt consectetur culpa enim excepteur. Aliquip excepteur voluptate anim proident.',
+      title: 'Lorem Ipsum',
+      description: 'Do magna commodo voluptate dolor cillum Lorem ad esse est occaecat in dolore commodo ullamco. Veniam occaecat velit consectetur in. Duis dolor aliqua do sit non. Commodo laboris labore reprehenderit quis veniam dolor dolore velit labore pariatur. Magna voluptate esse qui eu. Enim mollit officia minim non aliquip consectetur nisi incididunt consectetur culpa enim excepteur.',
     },
     {
       id: 2,
       imageSrc: '/assets/images/collect_garbage2.jpg',
-      description: 'Do magna commodo voluptate dolor cillum Lorem ad esse est occaecat in dolore commodo ullamco. Veniam occaecat velit consectetur in. Duis dolor aliqua do sit non. Commodo laboris labore reprehenderit quis veniam dolor dolore velit labore pariatur. Magna voluptate esse qui eu. Enim mollit officia minim non aliquip consectetur nisi incididunt consectetur culpa enim excepteur. Aliquip excepteur voluptate anim proident.',
+      title: 'Lorem Ipsum',
+      description: 'Do magna commodo voluptate dolor cillum Lorem ad esse est occaecat in dolore commodo ullamco. Veniam occaecat velit consectetur in. Duis dolor aliqua do sit non. Commodo laboris labore reprehenderit quis veniam dolor dolore velit labore pariatur. Magna voluptate esse qui eu. Enim mollit officia minim non aliquip consectetur nisi incididunt consectetur culpa enim excepteur.',
     },
     {
       id: 3,
       imageSrc: '/assets/images/collect_garbage3.jpg',
-      description: 'Do magna commodo voluptate dolor cillum Lorem ad esse est occaecat in dolore commodo ullamco. Veniam occaecat velit consectetur in. Duis dolor aliqua do sit non. Commodo laboris labore reprehenderit quis veniam dolor dolore velit labore pariatur. Magna voluptate esse qui eu. Enim mollit officia minim non aliquip consectetur nisi incididunt consectetur culpa enim excepteur. Aliquip excepteur voluptate anim proident.',
+      title: 'Lorem Ipsum',
+      description: 'Do magna commodo voluptate dolor cillum Lorem ad esse est occaecat in dolore commodo ullamco. Veniam occaecat velit consectetur in. Duis dolor aliqua do sit non. Commodo laboris labore reprehenderit quis veniam dolor dolore velit labore pariatur. Magna voluptate esse qui eu. Enim mollit officia minim non aliquip consectetur nisi incididunt consectetur culpa enim excepteur.',
     },
   ];
 
@@ -46,6 +50,7 @@ const Services: React.FC = () => {
           <ServicesCard 
             key={card.id}
             imageSrc={card.imageSrc}
+            title={card.title}
             description={card.description}
           />
         ))}
