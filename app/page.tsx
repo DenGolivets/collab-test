@@ -10,7 +10,6 @@ export default function Home() {
         <section id="about us">Hello World!</section>
         <section id="services"></section>
         <section id="testymanials"></section>
-        Hello World!
         <footer></footer>
       </main>
     </>
