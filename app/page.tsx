@@ -8,7 +8,7 @@ export default function Home() {
         <header>
           <Header />
         </header>
-        <section id="about us">Hello World!</section>
+        <section id="about us">Hello World!!!</section>
         <section id="services">
           <Services />
         </section>
