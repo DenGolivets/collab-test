@@ -26,7 +26,7 @@ const ContactUs = () => {
           </div>
         </div>
         
-        <div className="flex flex-col items-center justify-center mb-16 space-y-10 ml-[160px]">
+        <div className="flex flex-col items-center justify-center mb-[120px] space-y-10 ml-[60px]">
           <div className="flex gap-4">
             <Image src='/assets/images/mail_icon.png' alt="" width={20} height={15} />
             <p className="">
@@ -39,10 +39,10 @@ const ContactUs = () => {
               (303) 555-0105
             </p>
           </div>
-          <div className="flex gap-4">
+          <div className="flex absolute gap-6 top-[210px] right-[437px]">
             <Image src='/assets/images/location_icon.png' alt="" width={14} height={19} />
-            <p className="">
-              (303) 555-0105
+            <p className="flex">
+              2715 Ash Dr. San Jose, South Dakota 83475
             </p>
           </div>
         </div>
