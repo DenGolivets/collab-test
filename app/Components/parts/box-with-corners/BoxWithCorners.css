@@ -1,0 +1,36 @@
+.box {
+  position: relative;
+  width: fit-content;
+  --line-color: #6d91ee;
+}
+
+.line {
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: var(--line-color);
+}
+
+.line-0 {
+  top: 0;
+  left: 0;
+  transform: rotate(-45deg);
+}
+
+.line-1 {
+  top: 0;
+  right: 0;
+  transform: rotate(45deg);
+}
+
+.line-2 {
+  bottom: 0;
+  left: 0;
+  transform: rotate(45deg);
+}
+
+.line-3 {
+  bottom: 0;
+  right: 0;
+  transform: rotate(-45deg);
+}
