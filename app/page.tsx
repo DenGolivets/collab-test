@@ -2,6 +2,7 @@ import Services from "./Components/Services";
 import { AboutUs } from "./Components/AboutUs";
 import Header from "./Components/Header";
 import { Testymonials } from "./Components/Testymonials";
+import ContactUs from "./Components/ContactUs";
 
 export default function Home() {
   return (
@@ -20,7 +21,9 @@ export default function Home() {
         <section id="testymonials">
           <Testymonials />
         </section>
-        <footer></footer>
+        <footer>
+          <ContactUs />
+        </footer>
       </main>
     </>
   );
