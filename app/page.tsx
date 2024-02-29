@@ -1,6 +1,7 @@
 import Services from "./Components/Services";
 import { AboutUs } from "./Components/AboutUs";
 import Header from "./Components/Header";
+import { Testymonials } from "./Components/Testymonials";
 
 export default function Home() {
   return (
@@ -16,7 +17,9 @@ export default function Home() {
         <section id="services">
           <Services />
         </section>
-        <section id="testymanials"></section>
+        <section id="testymonials">
+          <Testymonials />
+        </section>
         <footer></footer>
       </main>
     </>
